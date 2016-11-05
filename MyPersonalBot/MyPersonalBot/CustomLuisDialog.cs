@@ -11,7 +11,7 @@ using Microsoft.Bot.Connector;
 
 namespace MyPersonalBot
 {
-    [LuisModel("a6395346-8677-46d0-a620-c35e2fd8acea", "94abce56901a476194c2f3d7c7c1f423")]
+    [LuisModel("<appid>", "<appkey>")]
     public class CustomLuisDialog : LuisDialog<object>
     {
         [LuisIntent("Greeting")]
